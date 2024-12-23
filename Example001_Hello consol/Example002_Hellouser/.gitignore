@@ -1,0 +1,37 @@
+# Папки для сборки
+bin/
+obj/
+
+# Пользовательские файлы и настройки IDE
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Папка Visual Studio Code
+.vscode/
+
+# Папка для зависимостей
+packages/
+*.nupkg
+*.snupkg
+
+# Конфигурации и логи
+*.log
+*.cache
+*.pdb
+*.tmp
+*.pid
+*.mdf
+*.ldf
+
+# Файлы публикации
+.publish/
+
+# Секретные файлы
+appsettings.*.json
+.env
+
+# Автоматически сгенерированные файлы
+Generated/
+ServiceFabricBackup/
